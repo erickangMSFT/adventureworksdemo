@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19C368E8-7024-4D96-8DB3-DB9283DE5FFE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TestSpecs</RootNamespace>
+    <AssemblyName>TestSpecs</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="database.yml" />
+    <None Include="data\adventureworks\seed_data\seed_humanresources_department.csv" />
+    <None Include="data\adventureworks\seed_data\seed_humanresources_employee.csv" />
+    <None Include="data\adventureworks\seed_data\seed_humanresources_employeedepartmenthistory.csv" />
+    <None Include="data\adventureworks\seed_data\seed_humanresources_shift.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_addressrename.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_addresstype.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_businessentity.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_businessentityaddress.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_countryregion.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_emailaddress.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_person.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_personphone.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_phonenumbertype.csv" />
+    <None Include="data\adventureworks\seed_data\seed_person_stateprovince.csv" />
+    <None Include="data\adventureworks\seed_data\seed_sales_salesterritory.csv" />
+    <None Include="data\adventureworks\seed_data\_seed_sequence.md" />
+    <None Include="data\adventureworks\uspGetDirectManager_expected_result_for_businessentityid_2.csv" />
+    <None Include="data\adventureworks\uspGetDirectReports_expected_result_for_businessentityid_1.csv" />
+    <None Include="data\sample_1\my_table_expected_power_results.csv" />
+    <None Include="data\sample_1\my_table_initial_data.csv" />
+    <None Include="data\sample_1\numbers_expected_output.csv" />
+    <None Include="lib\helpers\my_helper.rb" />
+    <None Include="lib\helpers\seed_data.rb" />
+    <None Include="spec\sample_1.rb" />
+    <None Include="spec\uspGetDirectManager.rb" />
+    <None Include="spec\uspGetDirectReports.rb" />
+    <None Include="sql\adventureworks\exec_humanresources_uspGetDirectManager.sql.erb" />
+    <None Include="sql\adventureworks\exec_humanresources_uspGetDirectReports.sql.erb" />
+    <None Include="sql\sample_1\create_my_table.sql.erb" />
+    <None Include="sql\sample_1\my_table_on_power.sql.erb" />
+    <None Include="sql\sample_1\play_with_numbers.sql.erb" />
+    <None Include="sql\sample_1\sysobjects.sql.erb" />
+    <None Include="sql\sample_1\sysobjects_with_params.sql.erb" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

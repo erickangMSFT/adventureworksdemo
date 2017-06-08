@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0c54abe9-cbfd-4314-93da-9d53eaa25cf2" ChangeDateTime="02/07/2017 19:31:53">
+    <Property Name="ElementName" Value="[Person].[Address]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Person]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[AddressRename]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="87cc049c-d414-4f0e-91e9-4fea38682c3f" ChangeDateTime="05/06/2017 00:19:06">
+    <Property Name="ElementName" Value="[Person].[Person]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Person]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Person1]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="725df6c7-5c33-4c61-952f-fb112dc4d8c6" ChangeDateTime="05/06/2017 00:23:45">
+    <Property Name="ElementName" Value="[Person].[Person1]" />
+    <Property Name="ElementType" Value="SqlTable" />
+    <Property Name="ParentElementName" Value="[Person]" />
+    <Property Name="ParentElementType" Value="SqlSchema" />
+    <Property Name="NewName" Value="[Person]" />
+  </Operation>
+</Operations>

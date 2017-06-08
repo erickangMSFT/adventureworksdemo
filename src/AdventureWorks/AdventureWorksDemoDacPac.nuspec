@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>AdventureWorkDemoDacPac</id>
+        <version>1.0.0</version>
+        <title>AdventureWorks Demo Dacpac</title>
+        <authors>sqldatatools</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Nuget package demo for AdventureWorks Demo database</description>
+        <copyright>@AdventureWorks 2016</copyright>
+    </metadata>
+    <files>
+        <file src="..\AdventureWorks\bin\Debug\AdventureWorks.dacpac" target="content\AdventureWorks.dacpac" />
+        <file src="..\AdventureWorks\bin\Debug\AdventureWorksDemo.dll" target="content\AdventureWorksDemo.dll" />
+    </files>
+</package>

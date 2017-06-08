@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="8aa9134e-f01c-4d9b-8efd-219db7150033" ChangeDateTime="06/01/2015 06:13:06">
+    <Property Name="ElementName" Value="[HumanResources].[Employee].[BusinessEntityID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HumanResources].[Employee]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Business EntityID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c5acc752-ffae-495d-a1bc-b3665b751d4e" ChangeDateTime="06/01/2015 17:31:54">
+    <Property Name="ElementName" Value="[HumanResources].[Employee].[Business EntityID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HumanResources].[Employee]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[BusinessEntityID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="58f7ccf7-80cb-4abd-9b7d-87e63e0a7911" ChangeDateTime="06/01/2015 19:31:06">
+    <Property Name="ElementName" Value="[HumanResources].[Employee].[BusinessEntityID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HumanResources].[Employee]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[Business EntityID]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="195c6380-13d6-47f5-abfe-2e58e22ac081" ChangeDateTime="06/01/2015 19:36:07">
+    <Property Name="ElementName" Value="[HumanResources].[Employee].[Business EntityID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[HumanResources].[Employee]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[BusinessEntityID]" />
+  </Operation>
+</Operations>

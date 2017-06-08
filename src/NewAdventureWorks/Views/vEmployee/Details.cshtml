@@ -1,0 +1,150 @@
+﻿@model NewAdventureWorks.Models.vEmployee
+
+@{
+    ViewBag.Title = "Employee Detail";
+}
+
+<h2><img src=" ~/images/Person.png" /> @Html.DisplayFor(model => model.FirstName) @Html.DisplayFor(model => model.LastName)</h2>
+
+<div>
+    
+    <p>
+        @Html.ActionLink("View in OrgChart", "../OrgChart/OrgChart", new { id = Model.BusinessEntityID })
+    </p>
+    <dl class="dl-horizontal">
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.BusinessEntityID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BusinessEntityID)
+        </dd>
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.LoginID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LoginID)
+        </dd>
+    
+        <dt>
+            @Html.DisplayNameFor(model => model.GroupName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GroupName)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DepartmentName)
+        </dd>
+
+        
+
+        <dt>
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.JobTitle)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OrganizationLevel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OrganizationLevel)
+        </dd>
+
+        
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PhoneNumberType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PhoneNumberType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmailAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmailAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressLine1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddressLine1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AddressLine2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AddressLine2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.StateProvinceName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StateProvinceName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CountryRegionName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CountryRegionName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdditionalContactInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdditionalContactInfo)
+        </dd>
+        
+
+    </dl>
+</div>
+<p>
+    @*@Html.ActionLink("Edit", "Edit", new { id = Model.BusinessEntityID }) |*@
+    @Html.ActionLink("Back to Directory", "Index")
+</p>

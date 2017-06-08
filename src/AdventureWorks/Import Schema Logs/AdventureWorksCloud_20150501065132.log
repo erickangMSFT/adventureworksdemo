@@ -1,0 +1,74 @@
+5/1/2015 11:51:32 AM	This log contains information about the import schema operation into project 'AdventureWorksCloud' on computer 'ERICKANGMAIN' by user 'erickang'.
+5/1/2015 11:51:32 AM	Import of database schema has started.
+5/1/2015 11:51:35 AM	Gathering logins
+5/1/2015 11:51:35 AM	Gathering database options
+5/1/2015 11:51:35 AM	Gathering users
+5/1/2015 11:51:35 AM	Gathering roles
+5/1/2015 11:51:35 AM	Gathering application roles
+5/1/2015 11:51:35 AM	Gathering role memberships
+5/1/2015 11:51:35 AM	Gathering filegroups
+5/1/2015 11:51:35 AM	Gathering full-text catalogs
+5/1/2015 11:51:35 AM	Gathering assemblies
+5/1/2015 11:51:35 AM	Gathering certificates
+5/1/2015 11:51:35 AM	Gathering schemas
+5/1/2015 11:51:35 AM	Gathering XML schema collections
+5/1/2015 11:51:35 AM	Gathering user-defined data types
+5/1/2015 11:51:35 AM	Gathering user-defined types
+5/1/2015 11:51:35 AM	Gathering table types
+5/1/2015 11:51:35 AM	Gathering unique keys for table types
+5/1/2015 11:51:35 AM	Gathering primary keys for table types
+5/1/2015 11:51:35 AM	Gathering indexes for table types
+5/1/2015 11:51:35 AM	Gathering check constraints for table types
+5/1/2015 11:51:36 AM	Gathering default constraints for table types
+5/1/2015 11:51:36 AM	Gathering partition functions
+5/1/2015 11:51:36 AM	Gathering partition schemes
+5/1/2015 11:51:36 AM	Gathering functions
+5/1/2015 11:51:36 AM	Gathering encrypted functions
+5/1/2015 11:51:36 AM	Gathering aggregates
+5/1/2015 11:51:36 AM	Gathering procedures
+5/1/2015 11:51:36 AM	Gathering encrypted procedures
+5/1/2015 11:51:36 AM	Gathering tables
+5/1/2015 11:51:36 AM	Gathering primary keys
+5/1/2015 11:51:36 AM	Gathering unique constraints
+5/1/2015 11:51:36 AM	Gathering foreign keys
+5/1/2015 11:51:36 AM	Gathering default constraints
+5/1/2015 11:51:36 AM	Gathering check constraints
+5/1/2015 11:51:36 AM	Gathering views
+5/1/2015 11:51:36 AM	Gathering encrypted views
+5/1/2015 11:51:36 AM	Gathering indexes
+5/1/2015 11:51:37 AM	Gathering statistics
+5/1/2015 11:51:37 AM	Gathering full-text index stoplists
+5/1/2015 11:51:37 AM	Gathering search property lists
+5/1/2015 11:51:37 AM	Gathering search properties
+5/1/2015 11:51:37 AM	Gathering full-text indexes
+5/1/2015 11:51:37 AM	Gathering column store indexes
+5/1/2015 11:51:37 AM	Gathering spatial indexes
+5/1/2015 11:51:37 AM	Gathering XML indexes
+5/1/2015 11:51:37 AM	Gathering Selective XML indexes
+5/1/2015 11:51:37 AM	Gathering encrypted triggers
+5/1/2015 11:51:37 AM	Gathering triggers
+5/1/2015 11:51:37 AM	Gathering encrypted and clr ddl triggers
+5/1/2015 11:51:37 AM	Gathering ddl triggers
+5/1/2015 11:51:37 AM	Gathering synonyms
+5/1/2015 11:51:37 AM	Gathering defaults
+5/1/2015 11:51:37 AM	Gathering data constraint uddt bindings
+5/1/2015 11:51:37 AM	Gathering rules
+5/1/2015 11:51:37 AM	Gathering data constraint uddt bindings
+5/1/2015 11:51:37 AM	Gathering message types
+5/1/2015 11:51:37 AM	Gathering queues
+5/1/2015 11:51:37 AM	Gathering contracts
+5/1/2015 11:51:37 AM	Gathering services
+5/1/2015 11:51:37 AM	Gathering event notifications
+5/1/2015 11:51:37 AM	Gathering remote service bindings
+5/1/2015 11:51:37 AM	Gathering broker priorities
+5/1/2015 11:51:37 AM	Gathering signatures
+5/1/2015 11:51:37 AM	Gathering data compression options
+5/1/2015 11:51:37 AM	Gathering sequence types
+5/1/2015 11:51:37 AM	Gathering database permissions
+5/1/2015 11:51:37 AM	Gathering extended properties
+5/1/2015 11:51:39 AM	Gathering logins
+5/1/2015 11:51:41 AM	Scanning project for duplicate elements
+5/1/2015 11:51:42 AM	Finished duplicate element processing
+5/1/2015 11:51:52 AM	Finished importing database.
+5/1/2015 11:51:52 AM	A summary of the import was saved to the following location: c:\users\erickang\documents\visual studio 2015\Projects\NewAdventureWorks\AdventureWorksCloud\Import Schema Logs\AdventureWorksCloud_20150501065132.log
+5/1/2015 11:51:52 AM	Click Finish to continue...

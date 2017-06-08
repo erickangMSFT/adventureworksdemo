@@ -1,0 +1,50 @@
+﻿@model IEnumerable<NewAdventureWorks.Models.vEmployee>
+
+@{
+    ViewBag.Title = "Employee Directory";
+}
+
+<h2><img src=" ~/images/SearchGrid.png" /> AdventureWorks Directory</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Name
+        </th>
+        
+        <th>
+            @Html.DisplayNameFor(model => model.JobTitle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DepartmentName)
+        </th>
+        
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.ActionLink(HttpUtility.HtmlDecode(@Html.DisplayFor(modelItem => item.FirstName)+" "+@Html.DisplayFor(modelItem => item.LastName)),"Details", new {id = item.BusinessEntityID})
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.JobTitle)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DepartmentName)
+        </td>
+        
+        @*<td>
+            
+            @Html.ActionLink("chart", "../OrgChart/OrgChart", new { id = item.BusinessEntityID })
+            
+        </td>*@
+    </tr>
+}
+
+</table>

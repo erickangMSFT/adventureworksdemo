@@ -1,0 +1,77 @@
+﻿@model NewAdventureWorks.Models.OrgStructure
+
+@{
+    ViewBag.Title = "OrgChart";
+}
+
+<h2>
+    <img src=" ~/images/Person.png" /> @Html.ActionLink(HttpUtility.HtmlDecode(@Html.DisplayFor(model => model.Employee.FirstName) + " " + @Html.DisplayFor(model => model.Employee.LastName)), "../vEmployee/Details", new { id = Model.Employee.BusinessEntityID })
+</h2>
+
+<div>
+    <h4>@Html.DisplayFor(model=>model.Employee.JobTitle), @Html.DisplayFor(model =>model.Employee.DepartmentName)</h4>
+    <hr />
+    <dl class="dl-horizontal">
+    </dl>
+</div>
+
+<div>
+@if (Model.Manager != null)
+{
+    <h4>Manager</h4>
+    <dl class="dl-horizontal">
+        
+        <dt>
+            <img src=" ~/images/Support1.png" / hiehg="20" width="20">
+        </dt>
+        <dd>
+            @Html.ActionLink(HttpUtility.HtmlDecode(@Html.DisplayFor(model => model.Manager.FirstName) + " " + @Html.DisplayFor(model => model.Manager.LastName)), "OrgChart", new { id = Model.Manager.BusinessEntityID })
+            @*@Html.ActionLink("detail", "../vEmployee/Details", new { id = Model.Manager.BusinessEntityID })*@ 
+            
+            
+        </dd>
+        
+        @*<dt>
+            @Html.DisplayNameFor(model => model.Manager.JobTitle)
+        </dt>*@
+        <dd>
+            @Html.DisplayFor(model => model.Manager.JobTitle)
+        </dd>
+        
+
+    </dl>
+}
+</div>
+
+<p></p>
+
+<div>
+    <h4>Direct Reports</h4>
+    @foreach (var item in Model.DirectReports)
+    {
+        <div>
+            <dl class="dl-horizontal">
+                <dt>
+                    <img src=" ~/images/Team.png" hiehg="20" width="20">
+                </dt>
+                <dd>
+                    @Html.ActionLink(HttpUtility.HtmlDecode(@Html.DisplayFor(modelitem => item.FirstName)+" "+@Html.DisplayFor(modelitem => item.LastName)), "OrgChart", new { id = item.BusinessEntityID })
+                    @*@Html.ActionLink("details", "../vEmployee/Details", new { id = item.BusinessEntityID })*@ 
+                    
+                </dd>
+                               
+                @*<dt>
+                    @Html.DisplayNameFor(modelitem => item.JobTitle)
+                </dt>*@
+                <dd>
+                    @Html.DisplayFor(modelitem => item.JobTitle)
+                </dd>       
+            </dl>
+         </div>
+    }
+
+</div>
+<p>
+    
+    
+</p>
