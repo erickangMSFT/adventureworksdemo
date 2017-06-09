@@ -137,6 +137,7 @@
     <Folder Include="Sales\XMLSchemaCollections\" />
     <Folder Include="dbo\Database Triggers" />
     <Folder Include="SecurityPostScripts" />
+    <Folder Include="Security\AppUsers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Production\Tables\ProductCostHistory.sql" />
@@ -272,6 +273,8 @@
     <Build Include="HumanResources\Stored Procedures\uspGetEmployeeDetail.sql" />
     <Build Include="Security\Security.sql" />
     <Build Include="dbo\Database Triggers\ddlDatabaseTriggerLog.sql" />
+    <Build Include="Security\AppUsers\PublicApps.sql" />
+    <Build Include="Security\AppUsers\InternalApps.sql" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />

@@ -57,11 +57,13 @@
     <None Include="data\sample_1\numbers_expected_output.csv" />
     <None Include="lib\helpers\my_helper.rb" />
     <None Include="lib\helpers\seed_data.rb" />
+    <None Include="spec\executeAsUser.rb" />
     <None Include="spec\sample_1.rb" />
     <None Include="spec\uspGetDirectManager.rb" />
     <None Include="spec\uspGetDirectReports.rb" />
     <None Include="sql\adventureworks\exec_humanresources_uspGetDirectManager.sql.erb" />
     <None Include="sql\adventureworks\exec_humanresources_uspGetDirectReports.sql.erb" />
+    <None Include="sql\adventureworks\select_humanresources_vemployee.sql.erb" />
     <None Include="sql\sample_1\create_my_table.sql.erb" />
     <None Include="sql\sample_1\my_table_on_power.sql.erb" />
     <None Include="sql\sample_1\play_with_numbers.sql.erb" />

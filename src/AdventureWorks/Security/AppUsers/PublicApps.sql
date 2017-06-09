@@ -1,0 +1,11 @@
+﻿CREATE USER [PublicApps] WITHOUT LOGIN
+GO
+
+GRANT CONNECT TO [PublicApps]
+GO
+
+GRANT EXECUTE TO [PublicApps]
+GO
+
+GRANT SELECT TO [PublicApps]
+GO

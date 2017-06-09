@@ -1,0 +1,7 @@
+﻿declare @user varchar(50);
+set @user = '<%= options [:user]%>';
+
+execute as user = @user
+select * from HumanResources.vEmployee
+where BusinessEntityID = 1;
+revert;
